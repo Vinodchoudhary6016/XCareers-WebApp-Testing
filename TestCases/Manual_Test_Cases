@@ -1,26 +1,6 @@
-Here is the perfect content for your Manual_Test_Cases.md file — clean, formatted, and ready to paste directly into GitHub.
+📄 Manual Test Cases – X Careers Notification System
 
-This includes:
-
-✔ Title
-✔ Introduction
-✔ Scope
-✔ How to Read the Test Cases
-✔ Complete Table (Navigation + Search + Form + Display etc.)
-✔ Organized into Sections
-
-
----
-
-✅ Manual_Test_Cases.md (Copy & Paste Ready)
-
-# 📄 Manual Test Cases – X Careers Notification System
-
-This document contains the complete set of **manual test cases** written for the **X Careers Hiring Notification Platform**, covering User Module, Admin Module, and NotifyX subscription system.
-
----
-
-## 📘 1. Introduction
+📘 1. Introduction
 
 The objective of this document is to provide a detailed list of **manual test cases** that validate the core functionality, user interface, integrations, and workflows of the X Careers platform.
 
@@ -30,13 +10,9 @@ The system includes:
 - NotifyX Subscription System (₹49/month)  
 - Admin Job Posting & Notification Module  
 - Email Notification Delivery  
-
----
-
-## 🎯 2. Scope of Testing
+🎯 2. Scope of Testing
 
 The test cases cover:
-
 - Navigation  
 - Search Functionality  
 - Course & Job Listings  
@@ -46,97 +22,21 @@ The test cases cover:
 - UI/UX  
 - Responsiveness  
 - Footer & Header Elements  
-- Job & Course Detail Pages  
+- Job & Course Detail Pages
 
----
-
-## 📌 3. Test Case Format
+3. Test Case Format
 
 Each test case includes:
+- Test Case ID 
+- Scenario  
+- Description 
+- Preconditions 
+- Test Steps 
+- Test Data
+- Expected Result  
+- Type 
+- Priority
 
-- **Test Case ID**  
-- **Scenario**  
-- **Description**  
-- **Preconditions**  
-- **Test Steps**  
-- **Test Data**  
-- **Expected Result**  
-- **Type**  
-- **Priority**
+✅ 4. Manual Test Cases
 
----
-
-# ✅ 4. Manual Test Cases
-
-## 🔹 **Navigation Test Cases**
-
-| ID | Scenario | Description | Preconditions | Steps | Test Data | Expected Result | Type | Priority |
-|----|----------|-------------|---------------|--------|-----------|------------------|-------|----------|
-| TC_NAV_001 | Navigation | Verify Home page loads successfully | User not logged in | Navigate to homepage | N/A | Homepage loads without errors | Functional | High |
-| TC_NAV_002 | Navigation | Verify navigation to Jobs page | User on Home page | Click Jobs link | N/A | Jobs page loads with listings | Functional | High |
-| TC_NAV_003 | Navigation | Verify navigation to Courses page | User on Home page | Click Courses link | N/A | Courses page loads successfully | Functional | High |
-| TC_NAV_004 | Navigation | Verify navigation to Companies page | User on Home page | Click Companies link | N/A | Companies page loads | Functional | Medium |
-| TC_NAV_005 | Navigation | Verify navigation to Contact Us page | User on Home page | Click Contact Us | N/A | Contact page loads with form | Functional | Medium |
-| TC_NAV_006 | Navigation | Verify navigation to About Us page | User on Home page | Click About Us | N/A | About Us page loads | Functional | Low |
-| TC_NAV_007 | Navigation | Verify job detail navigation | On Jobs page | Click first job listing | N/A | Job detail page appears | Functional | High |
-| TC_NAV_008 | Navigation | Verify course detail navigation | On Courses page | Click first course listing | N/A | Course detail page appears | Functional | High |
-
----
-
-## 🔹 **Job Search Test Cases**
-
-| ID | Scenario | Description | Preconditions | Steps | Test Data | Expected Result | Type | Priority |
-|----|----------|-------------|---------------|--------|-----------|------------------|-------|----------|
-| TC_SEARCH_JOB_001 | Job Search | Search with valid keyword | On Jobs page | Enter keyword → Search | Software Engineer | Matching jobs displayed | Functional | High |
-| TC_SEARCH_JOB_002 | Job Search | Search with invalid keyword | On Jobs page | Enter keyword → Search | Xyzzy Engineer | No results found message | Functional | Medium |
-| TC_SEARCH_JOB_003 | Job Search | Search with empty keyword | On Jobs page | Leave empty → Search | (empty) | All jobs displayed or prompt | Functional | Medium |
-| TC_SEARCH_JOB_004 | Job Search | Filter by location | On Jobs page | Enter location → Search | Bengaluru | Jobs filtered by location | Functional | High |
-| TC_SEARCH_JOB_005 | Job Search | Keyword + location | On Jobs page | Enter both filters | Developer, Hyderabad | Combined filtered results | Functional | High |
-| TC_SEARCH_JOB_006 | Job Search | Filter by Experience | On Jobs page | Select experience | 2–5 Years | Listings filtered by experience | Functional | Medium |
-| TC_SEARCH_JOB_007 | Job Search | Filter by Salary | On Jobs page | Select salary range | 5–10 LPA | Listings filtered by salary | Functional | Medium |
-| TC_SEARCH_JOB_008 | Job Search | Sort by Date Posted | On Jobs page | Select sort option | Date Posted | Newest jobs appear first | Functional | Medium |
-
----
-
-## 🔹 **Course Search Test Cases**
-
-| ID | Scenario | Description | Preconditions | Steps | Test Data | Expected Result | Type | Priority |
-|----|----------|-------------|---------------|--------|-----------|------------------|-------|----------|
-| TC_SEARCH_COURSE_001 | Course Search | Valid keyword | On Courses page | Enter keyword → Search | Data Science | Relevant courses displayed | Functional | High |
-| TC_SEARCH_COURSE_002 | Course Search | Invalid keyword | On Courses page | Enter keyword → Search | Quantum Teleportation | No results message | Functional | Medium |
-| TC_SEARCH_COURSE_003 | Course Search | Empty keyword | On Courses page | Leave empty → Search | (empty) | All courses or prompt | Functional | Medium |
-| TC_SEARCH_COURSE_004 | Course Search | Filter by Category | On Courses page | Select category | Programming | Courses filtered by category | Functional | Medium |
-
----
-
-## 🔹 **Form Validation Test Cases**
-
-| ID | Scenario | Description | Preconditions | Steps | Test Data | Expected Result | Type | Priority |
-|----|----------|-------------|---------------|--------|-----------|------------------|-------|----------|
-| TC_FORM_001 | Contact Form | Valid data submission | On Contact page | Fill form → Submit | Valid name/email/message | Success message | Functional | High |
-| TC_FORM_002 | Contact Form | Empty required fields | On Contact page | Leave fields empty → Submit | Empty fields | Validation errors shown | Functional | High |
-| TC_FORM_003 | Contact Form | Invalid email | On Contact page | Enter invalid email | invalid-email | Error message shown | Functional | High |
-
----
-
-## 🔹 **Job Application Test Cases
-
-| ID | Scenario | Description | Preconditions | Steps | Test Data | Expected Result | Type | Priority |
-|----|----------|-------------|---------------|--------|-----------|------------------|-------|----------|
-| TC_APPLY_JOB_001 | Apply Job | Verify Apply Now button | On job detail page | Click Apply Now | N/A | Form or external page opens | Functional | High |
-
----
-
-## 🔹 **UI / Display / Responsiveness Test Cases**
-
-| ID | Scenario | Description | Preconditions | Steps | Test Data | Expected Result | Type | Priority |
-|----|----------|-------------|---------------|--------|-----------|------------------|-------|----------|
-| TC_UI_001 | UI | Logo navigation | On any page | Click logo | N/A | Returns to Home page | UI | High |
-| TC_UI_002 | UI | Carousel functionality | Page with slider | Observe + click arrows | N/A | Smooth transitions | UI | Medium |
-| TC_UI_003 | UI | Mobile responsiveness | Browser dev tools | Resize screen | 375×667 | Layout adapts correctly | UI | Medium |
-
----
-
-## 🔹 **Footer & Display Test Cases**
-
-| ID | Scenario | Description
+Navigation Test Cases
