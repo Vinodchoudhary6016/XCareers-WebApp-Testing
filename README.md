@@ -1,3 +1,4 @@
+![1000174010](https://github.com/user-attachments/assets/c28b046b-985d-4925-8fda-412c52131a65)
 # XCareers-WebApp-Testing
 Functional and UI manual testing repository for X Careers web application featuring test cases, bug logs, screenshots, and workflow validations.
 
@@ -27,19 +28,6 @@ Notepad / VS Code
 ✔ Footer & Header Link Validation
 ✔ Mobile Responsiveness
 ✔ Job & Course Detail Page Validation
-
-📁 Repository Structure
-
-/XCareers-Manual-Testing/
-│── README.md
-│── TestCases/
-│     └── Manual_Test_Cases.md
-│── BugReports/
-│     └── Sample_Bug_Report.md
-│── Screenshots/
-│── TestPlan/
-│     └── TestPlan_Document.md
-│── Automation/
 
 🧪 Test Cases
 The complete list of manual test cases is available in:
